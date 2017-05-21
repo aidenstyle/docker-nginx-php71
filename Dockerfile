@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Aiden Lee <mylightweb@gmail.com>
+MAINTAINER Aiden Lee <aiden.lee.developer@gmail.com>
 
 RUN yum update -y && \
     yum install -y epel-release && \
