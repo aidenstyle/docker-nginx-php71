@@ -27,4 +27,6 @@ EXPOSE 80
 COPY ["etc/nginx/", "/etc/nginx/"]
 COPY ["usr/sbin/startup.sh", "/usr/sbin/"]
 
+RUN chmod +x /usr/sbin/startup.sh
+
 CMD ["/usr/sbin/startup.sh"]
