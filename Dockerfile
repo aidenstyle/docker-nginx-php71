@@ -16,7 +16,7 @@ RUN yum update -y && \
                php-pdo \
                php-mysqlnd \
                php-pgsql && \
-    yum install -y gettext \
+    yum install -y gettext && \
     yum clean all && \
     rm -rf /etc/nginx/* && rm -rf /var/www/*
     
